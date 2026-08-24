@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+     
+          <h1>Formulário</h1>
+<form action="cadastro.php" autocomplete="off">
+
+        <div class="nome">
+            <p><label for="inome">Digite seu nome:</label>
+                <input type="text" name="Nome" id="inome">
+            </p>
+        </div>
+
+       <div class="sobrenome">
+            <p>
+                <label for="isobrenome">Digite seu sobrenome:</label>
+                <input type="text" name="Sobrenome" id="isobrenome">
+            </p>
+        </div>
+            <div class="numero">
+                <label for="inumero">Digite seu número de telefone:</label>
+                <input type="tel" name="telefone" id="itelefone">
+
+            </div>
+    
+        <div class="email">
+            <p>
+                <label for="iemail">Digite seu e-mail:</label>
+                <input type="email" name="Email" id="iemail"><br>
+            </p>
+        </div>
+           <div class="senha">
+                 
+                <label for="isenha">Digite sua senha do email:</label>
+                <input type="password" name="senha" id="isenha"
+                value=""> <br>
+           </div >
+             <br>
+             <div class="data">
+                 
+                     <label for="Data">Inira sua data de nascimento</label>
+                     <input type="date" name="data" id="idata">
+             </div>
+             <h2 class="tituloescola">Nível de escolariedade</h2>
+             <div class="escolariedade">
+                 <input type="checkbox" name="Escola" id="Ensino médio">
+                 <label for="Escola">Ensino médio completo</label><br><br>
+                 <input type="checkbox" name="Cursando" id="iCursando">
+                 <label for="cursando">Ensino médio cursando <br><br>
+                <input type="checkbox" name="escolariedade" id="ensino medio interrompido">
+                <label for="interrompido">Ensino médio interrompido</label><br><br>
+                
+                <input type="checkbox" name="nivel escolariedade" id="ensino fundamental cursando">
+                <label for="Ensino mundamental">Ensino fundamental cursando</label>
+             </div>
+             
+
+         <div>
+              
+            <h2>Qual é o seu sexo?</h2>
+         </div>
+
+         <div class="sexo">
+            <input type="radio" name="genero" id="Feminino"
+            value="genero">
+            <label for="genero">Feminino</label>
+            <input type="radio" name="genero" id="Masculino"
+            value="genero">
+            <label for="genero">Masculino</label>
+            <input type="radio" name="genero" id="Prefiro não dizer"
+            value="genero">
+            <label for="genero">Prefiro não dizer</label>  
+         </div>
+         <div>
+            <br>
+            <label for="Enviar"></label>
+            <input type="submit" value="Enviar">
+         </div>
+
+
+
+
+</form>
+
+    
+</body>
+</html>
